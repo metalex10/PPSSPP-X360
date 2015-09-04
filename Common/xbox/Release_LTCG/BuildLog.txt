@@ -1,0 +1,36 @@
+﻿Compilación iniciada a las 28/08/2015 08:47:47 p. m..
+     1>Proyecto "C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\Common\CommonXbox.vcxproj" en el nodo 3 (build destinos).
+     1>InitializeBuildStatus:
+         Aplicando tarea Touch a "xbox\Release_LTCG\CommonXbox.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /I../native /I../Common /Zi /nologo /W3 /WX- /MP /Ox /Ob2 /Oi /Ot /GL /D NO_UNICODE /D _XBOX /D BIG_ENDIAN /D USE_DIRECTX /D PPC /D WIN32 /D NDEBUG /D _XBOX /D _LIB /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Fo"xbox\Release_LTCG\\" /Fd"xbox\Release_LTCG\vc100.pdb" /TP /FIstdafx.h ChunkFile.cpp ConsoleListener.cpp Crypto\md5.cpp Crypto\sha1.cpp ExtendedTrace.cpp FileUtil.cpp KeyMap.cpp LogManager.cpp MemArena.cpp MemoryUtil.cpp Misc.cpp MsgHandler.cpp ppcAbi.cpp ppcEmitter.cpp stdafx.cpp StringUtils.cpp ThreadPools.cpp Timer.cpp XboxCPUDetect.cpp /Oc /Ou /Oz /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\include\xbox\xbox_intellisense_platform.h"
+         ChunkFile.cpp
+         ConsoleListener.cpp
+         md5.cpp
+         sha1.cpp
+         ExtendedTrace.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: 'ExtendedTrace.cpp': No such file or directory
+         FileUtil.cpp
+         KeyMap.cpp
+     1>FileUtil.cpp(655): warning C4101: 'dir' : unreferenced local variable
+         LogManager.cpp
+         MemArena.cpp
+     1>MemArena.cpp(327): warning C4102: 'bail' : unreferenced label
+         MemoryUtil.cpp
+         Misc.cpp
+         MsgHandler.cpp
+         ppcAbi.cpp
+         ppcEmitter.cpp
+         stdafx.cpp
+         StringUtils.cpp
+     1>ppcEmitter.cpp(805): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>ppcEmitter.cpp(820): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>ppcEmitter.cpp(852): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+         ThreadPools.cpp
+         Timer.cpp
+         XboxCPUDetect.cpp
+     1>Compilación del proyecto terminada "C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\Common\CommonXbox.vcxproj" (build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:01:28.45

@@ -1,0 +1,86 @@
+﻿Compilación iniciada a las 28/08/2015 08:45:24 p. m..
+     1>Proyecto "C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\GPU\GPUXbox.vcxproj" en el nodo 3 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "xbox\Release_LTCG\GPUXbox.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /I../common /I.. /I../native /I../native/ext/glew /Zi /nologo /W3 /WX- /MP /Ox /Ob2 /Oi /Ot /GL /D USE_DIRECTX /D WIN32 /D _XBOX /D PPC /D BIG_ENDIAN /D NDEBUG /D _XBOX /D LTCG /D _LIB /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Fo"xbox\Release_LTCG\\" /Fd"xbox\Release_LTCG\vc100.pdb" /TP /FIcore/x360_compat.h ..\ext\xbrz\xbrz.cpp Common\IndexGenerator.cpp Common\TextureDecoder.cpp Common\VertexDecoderCommon.cpp Directx9\FramebufferDX9.cpp Directx9\GPU_DX9.cpp Directx9\helper\dx_state.cpp Directx9\helper\fbo.cpp Directx9\helper\global.cpp Directx9\PixelShaderGeneratorDX9.cpp Directx9\ShaderManagerDX9.cpp Directx9\SplineDX9.cpp Directx9\StateMappingDX9.cpp Directx9\TextureCacheDX9.cpp Directx9\TextureScalerDX9.cpp Directx9\TransformPipelineDX9.cpp Directx9\VertexDecoderDX9.cpp Directx9\VertexShaderGeneratorDX9.cpp GeDisasm.cpp GPUCommon.cpp GPUState.cpp Math3D.cpp Null\NullGpu.cpp /Oc /Ou /Oz /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\include\xbox\xbox_intellisense_platform.h"
+         xbrz.cpp
+         IndexGenerator.cpp
+         TextureDecoder.cpp
+         VertexDecoderCommon.cpp
+         FramebufferDX9.cpp
+         GPU_DX9.cpp
+     1>Directx9\FramebufferDX9.cpp(887): warning C4101: 'pixelType' : unreferenced local variable
+     1>Directx9\FramebufferDX9.cpp(887): warning C4101: 'pixelSize' : unreferenced local variable
+     1>Directx9\FramebufferDX9.cpp(887): warning C4101: 'align' : unreferenced local variable
+     1>Directx9\FramebufferDX9.cpp(887): warning C4101: 'pixelFormat' : unreferenced local variable
+         dx_state.cpp
+         fbo.cpp
+         global.cpp
+         PixelShaderGeneratorDX9.cpp
+     1>Directx9\helper\global.cpp(361): warning C4018: '<' : signed/unsigned mismatch
+         ShaderManagerDX9.cpp
+         SplineDX9.cpp
+         StateMappingDX9.cpp
+         TextureCacheDX9.cpp
+         TextureScalerDX9.cpp
+         TransformPipelineDX9.cpp
+         VertexDecoderDX9.cpp
+         VertexShaderGeneratorDX9.cpp
+     1>Directx9\VertexDecoderDX9.cpp(1163): warning C4101: 'tmp3' : unreferenced local variable
+     1>Directx9\VertexDecoderDX9.cpp(1163): warning C4101: 'tmp2' : unreferenced local variable
+     1>Directx9\VertexDecoderDX9.cpp(1163): warning C4101: 'tmp4' : unreferenced local variable
+     1>Directx9\VertexDecoderDX9.cpp(1196): warning C4101: 'tmp3' : unreferenced local variable
+     1>Directx9\VertexDecoderDX9.cpp(1196): warning C4101: 'tmp2' : unreferenced local variable
+     1>Directx9\VertexDecoderDX9.cpp(1196): warning C4101: 'tmp4' : unreferenced local variable
+     1>Directx9\VertexDecoderDX9.cpp(1244): warning C4101: 'tmp3' : unreferenced local variable
+     1>Directx9\VertexDecoderDX9.cpp(1244): warning C4101: 'tmp4' : unreferenced local variable
+     1>Directx9\VertexDecoderDX9.cpp(1425): warning C4101: 'tmp4' : unreferenced local variable
+     1>Directx9\VertexDecoderDX9.cpp(1503): warning C4101: 'tmp4' : unreferenced local variable
+     1>Directx9\VertexDecoderDX9.cpp(1596): warning C4101: 'tmp4' : unreferenced local variable
+     1>c:\users\metalex\downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\common\Swap.h(125): warning C4244: 'argument' : conversion from 'const float' to 'const s16', possible loss of data
+                 Directx9\VertexDecoderDX9.cpp(456) : see reference to function template instantiation 'swap_struct_t<T,F> swap_struct_t<T,F>::operator *<float>(const S &) const' being compiled
+                 with
+                 [
+                     T=s16,
+                     F=swap_16_t<s16>,
+                     S=float
+                 ]
+         GeDisasm.cpp
+         GPUCommon.cpp
+         GPUState.cpp
+         Math3D.cpp
+         NullGpu.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\Lib.exe /OUT:"C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\GPU\Release_LTCG\GPUXbox.lib" /NOLOGO /LTCG xbox\Release_LTCG\xbrz.obj
+         xbox\Release_LTCG\IndexGenerator.obj
+         xbox\Release_LTCG\TextureDecoder.obj
+         xbox\Release_LTCG\VertexDecoderCommon.obj
+         xbox\Release_LTCG\FramebufferDX9.obj
+         xbox\Release_LTCG\GPU_DX9.obj
+         xbox\Release_LTCG\dx_state.obj
+         xbox\Release_LTCG\fbo.obj
+         xbox\Release_LTCG\global.obj
+         xbox\Release_LTCG\PixelShaderGeneratorDX9.obj
+         xbox\Release_LTCG\ShaderManagerDX9.obj
+         xbox\Release_LTCG\SplineDX9.obj
+         xbox\Release_LTCG\StateMappingDX9.obj
+         xbox\Release_LTCG\TextureCacheDX9.obj
+         xbox\Release_LTCG\TextureScalerDX9.obj
+         xbox\Release_LTCG\TransformPipelineDX9.obj
+         xbox\Release_LTCG\VertexDecoderDX9.obj
+         xbox\Release_LTCG\VertexShaderGeneratorDX9.obj
+         xbox\Release_LTCG\GeDisasm.obj
+         xbox\Release_LTCG\GPUCommon.obj
+         xbox\Release_LTCG\GPUState.obj
+         xbox\Release_LTCG\Math3D.obj
+         xbox\Release_LTCG\NullGpu.obj
+         GPUXbox.vcxproj -> C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\GPU\Release_LTCG\GPUXbox.lib
+       FinalizeBuildStatus:
+         Se eliminará el archivo "xbox\Release_LTCG\GPUXbox.unsuccessfulbuild".
+         Aplicando tarea Touch a "xbox\Release_LTCG\GPUXbox.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\GPU\GPUXbox.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:02:23.27

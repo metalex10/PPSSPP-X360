@@ -1,0 +1,99 @@
+﻿Compilación iniciada a las 28/08/2015 08:54:16 p. m..
+     1>Proyecto "C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\Xbox\xx\xx.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Aplicando tarea Touch a "Release_LTCG\xx.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /I../../Common /I../.. /I../../Core /I../../native/ext/glew /I../../native /I../../ext/zlib /Zi /nologo /W3 /WX- /MP /Ox /Ob2 /Oi /Ot /GL /D NO_UNICODE /D NDEBUG /D _XBOX /D PPC /D BIG_ENDIAN /D NO_JIT /D USE_DIRECTX /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Fo"Release_LTCG\\" /Fd"Release_LTCG\vc100.pdb" /TP ..\..\ext\xxhash.c ..\..\native\base\buffer.cpp ..\..\native\base\stringutil.cpp ..\..\native\base\timeutil.cpp ..\..\native\data\compression.cpp ..\..\native\ext\cityhash\city.cpp ..\..\native\ext\jpge\jpgd.cpp ..\..\native\ext\jpge\jpge.cpp ..\..\native\ext\sha1\sha1.cpp ..\..\native\ext\stb_image\stb_image.c ..\..\native\ext\vjson\block_allocator.cpp ..\..\native\ext\vjson\json.cpp ..\..\native\file\fd_util.cpp ..\..\native\file\file_util.cpp ..\..\native\file\ini_file.cpp ..\..\native\file\zip_read.cpp ..\..\native\gfx\texture_atlas.cpp ..\..\native\i18n\i18n.cpp ..\..\native\image\png_load.cpp ..\..\native\image\zim_load.cpp ..\..\native\input\input_state.cpp ..\..\native\math\expression_parser.cpp ..\..\native\math\lin\matrix4x4.cpp ..\..\native\math\lin\quat.cpp ..\..\native\net\http_client.cpp ..\..\native\net\resolve.cpp ..\..\native\net\url.cpp ..\..\native\thread\threadpool.cpp ..\..\native\util\text\parsers.cpp ..\..\native\util\text\utf8.cpp ..\Compare.cpp ..\display_xbox.cpp ..\Jit\bram.cpp ..\XaudioSound.cpp ..\XboxMain.cpp ..\InputDevice.cpp ..\XboxHost.cpp ..\XboxOnScreenDisplay.cpp ..\XboxOs.cpp ..\XinputDevice.cpp /Oc /Ou /Oz /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\include\xbox\xbox_intellisense_platform.h"
+         xxhash.c
+         buffer.cpp
+     1>..\..\ext\xxhash.c(312): warning C4804: '/' : unsafe use of type 'bool' in operation
+         stringutil.cpp
+         timeutil.cpp
+         compression.cpp
+         city.cpp
+         jpgd.cpp
+         jpge.cpp
+         sha1.cpp
+         stb_image.c
+         block_allocator.cpp
+         json.cpp
+         fd_util.cpp
+         file_util.cpp
+         ini_file.cpp
+         zip_read.cpp
+         texture_atlas.cpp
+         i18n.cpp
+         png_load.cpp
+         zim_load.cpp
+         input_state.cpp
+         expression_parser.cpp
+         matrix4x4.cpp
+         quat.cpp
+         http_client.cpp
+         resolve.cpp
+         url.cpp
+         threadpool.cpp
+         parsers.cpp
+         utf8.cpp
+         Compare.cpp
+         display_xbox.cpp
+         bram.cpp
+         XaudioSound.cpp
+         XboxMain.cpp
+         InputDevice.cpp
+         XboxHost.cpp
+         XboxOnScreenDisplay.cpp
+         XboxOs.cpp
+         XinputDevice.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\Xbox\xx\Release_LTCG\xx.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\Xbox\\..\..\ffmpeg\Xbox\ppc\lib" xapilib.lib d3d9ltcg.lib d3dx9.lib xgraphics.lib xboxkrnl.lib xnet.lib xaudio2.lib xact3ltcg.lib x3daudioltcg.lib xmcoreltcg.lib vcomp.lib avcodec.lib avdevice.lib avformat.lib avutil.lib swresample.lib swscale.lib /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\Xbox\xx\Release_LTCG\xx.pdb" /STACK:"262144","262144" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /RELEASE /IMPLIB:"C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\Xbox\xx\Release_LTCG\xx.lib" Release_LTCG\xxhash.obj
+         Release_LTCG\buffer.obj
+         Release_LTCG\stringutil.obj
+         Release_LTCG\timeutil.obj
+         Release_LTCG\compression.obj
+         Release_LTCG\city.obj
+         Release_LTCG\jpgd.obj
+         Release_LTCG\jpge.obj
+         Release_LTCG\sha1.obj
+         Release_LTCG\stb_image.obj
+         Release_LTCG\block_allocator.obj
+         Release_LTCG\json.obj
+         Release_LTCG\fd_util.obj
+         Release_LTCG\file_util.obj
+         Release_LTCG\ini_file.obj
+         Release_LTCG\zip_read.obj
+         Release_LTCG\texture_atlas.obj
+         Release_LTCG\i18n.obj
+         Release_LTCG\png_load.obj
+         Release_LTCG\zim_load.obj
+         Release_LTCG\input_state.obj
+         Release_LTCG\expression_parser.obj
+         Release_LTCG\matrix4x4.obj
+         Release_LTCG\quat.obj
+         Release_LTCG\http_client.obj
+         Release_LTCG\resolve.obj
+         Release_LTCG\url.obj
+         Release_LTCG\threadpool.obj
+         Release_LTCG\parsers.obj
+         Release_LTCG\utf8.obj
+         Release_LTCG\Compare.obj
+         Release_LTCG\display_xbox.obj
+         Release_LTCG\bram.obj
+         Release_LTCG\XaudioSound.obj
+         Release_LTCG\XboxMain.obj
+         Release_LTCG\InputDevice.obj
+         Release_LTCG\XboxHost.obj
+         Release_LTCG\XboxOnScreenDisplay.obj
+         Release_LTCG\XboxOs.obj
+         Release_LTCG\XinputDevice.obj
+         "C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\Common\Release_LTCG\CommonXbox.lib"
+         "C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\Core\Release_LTCG\CoreXbox.lib"
+         "C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\GPU\Release_LTCG\GPUXbox.lib"
+         "C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\ext\libkirk\Release\libkirkXbox.lib"
+         "C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\ext\zlib\Release\zlibXbox.lib" /XEX:NO
+     1>LINK : fatal error LNK1181: cannot open input file 'avcodec.lib'
+     1>Compilación del proyecto terminada "C:\Users\Metalex\Downloads\ppsspp-xbox360_uu\ppsspp-xbox360_uu\Xbox\xx\xx.vcxproj" (build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:01:10.23
